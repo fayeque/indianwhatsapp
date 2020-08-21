@@ -1,0 +1,106 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.chat__header{
+    display:flex;
+    align-items: center;
+    padding:20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.chat__headerInfo{
+    margin-left:20px;
+}
+
+.chat__headerInfo > h2{
+    font-size: 15px;
+
+}
+.chat__headerInfo > p {
+    font-size:12px;
+    color:grey;
+}
+
+.chat__body{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    background-image:url("https://whatsappbrand.com/wp-content/themes/whatsapp-brc/images/hero.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: scroll;
+}
+
+.chat__bottom{
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+
+.chat__bottom > form{
+    display: flex;
+    flex:1;
+    margin-left:10px;
+    
+}
+
+.chat__bottom > form > input {
+    display: flex;
+    flex:1;
+    border: none;
+    padding:10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.chat__bottom > form > button{
+    background-color: green;
+    color:white;
+    height:25px;
+    margin-top:4px;
+    border-radius: 20px;
+    border: none;
+}
+
+.chat__bottom > form > button:hover{
+    background-color: white;
+    color:green;
+    height:25px;
+    margin-top:4px;
+    border-radius: 20px;
+    border: none;
+}
+
+.chat__bodyChat{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    padding:10px;
+    margin-left:10px;
+    margin-top:10px;
+    border-radius: 20px;
+    width: fit-content;
+    height:20px;
+}
+
+.chat__bodyChat > h3{
+    font-size:15px;
+    font-weight: normal;
+}
+
+.chat__bodyChat > p{
+    margin-left:8px;
+    font-size: 10px;
+    font-weight: 10px;
+}
+
+.chat__receiver{
+    background-color: lightgreen;
+    margin-left:auto;
+    margin-right:10px;
+}
+    
